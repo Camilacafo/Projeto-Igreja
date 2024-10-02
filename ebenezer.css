@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    border: 1px solid black;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(18, 63, 18);
+}
+
+header > nav > a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    border: 1px solid black;
+    height: 450px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+
+main > article{
+    background-color: rgb(134, 238, 156);
+    height: 100px;
+    border: 1px solid black;
+    flex: auto;
+}
+
+main> aside{
+    background-color: rgb(58, 236, 117);
+    height: 50px;
+    border: 1px solid black;
+    flex: auto;
+
+}
+
+footer{
+    border: 1px solid black;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
