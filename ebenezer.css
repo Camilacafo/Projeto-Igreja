@@ -6,34 +6,47 @@
 }
 
 header{
-    margin-top: 5px;
+    
     margin: 14px;
-    height: 120px;
+    height: 280px;
     padding: 10px;
     background-color: rgb(18, 63, 18);
     border-radius: 5px;
-     
+    display: flex;
+    flex-flow: row wrap;
+    
 }
 
-header > span{
-    margin: 5px;
-    padding: 5px;
+header > img{
+    height: 33vh;
+    min-width: 80vw;
+    border-radius: 5px;
+    flex: auto;
     
 }
 
 header > nav {
-   display: flex; 
-   flex-flow: row nowrap;
-   justify-content: flex-end; 
-   
+    flex: auto ;
+    text-align: center;
 }
 
 header > nav > a{
     text-decoration: none;
     color: white;
-    font-size: 1.3em;
-    margin: 5px;
+    font-size: 1.6em;
+    margin: 10px;
+    border-radius: 10px;
     
+}
+
+header > nav > a:hover{
+    color: rgb(18, 63, 18);
+    background-color: rgba(249, 252, 246, 0.712);
+    border-radius: 8px;
+    transition: 1px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 main{
@@ -43,7 +56,6 @@ main{
     padding: 10px;
     display: flex;
     flex-flow: row nowrap;
-    align-content: center;
 
 }
 
@@ -72,7 +84,7 @@ main> aside{
 footer{
     background-color: gray;
     border: 0.5px solid rgba(0, 0, 0, 0.425);
-    height: 80px;
+    height: 100px;
     margin: 14px;
     padding: 10px;
     border-radius: 5px;
